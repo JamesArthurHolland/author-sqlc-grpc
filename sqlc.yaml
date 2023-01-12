@@ -1,0 +1,6 @@
+version: "1"
+packages:
+  - path: "internal/author"
+    queries: "./queries.sql"
+    schema: "./queries.sql"
+    engine: "postgresql"
